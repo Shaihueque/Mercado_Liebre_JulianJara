@@ -134,7 +134,7 @@ main section div img{
     padding: 10px;
 }
 
-main section .art-product{
+main section article{
     /*width: 100%;*/
     border-top: 1px solid #ebebeb;
     padding: 15px;
@@ -144,7 +144,7 @@ main section .art-product{
     display: none;
 }
 
-main section .producto:hover .art-product{
+main section .producto:hover article{
     display: block;
 }
 
