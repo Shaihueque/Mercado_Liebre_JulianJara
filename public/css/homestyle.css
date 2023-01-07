@@ -27,6 +27,7 @@ p{
 .main-header-2{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .menu-hamburgesa-boton {
@@ -48,6 +49,15 @@ p{
 header section div .logo {
     padding: 10px;
 }
+/*.form-serch{
+    width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+}*/
 .cont-serch{
     width: 50%;
     display: flex;
@@ -55,7 +65,14 @@ header section div .logo {
     justify-content: center;
 }
 .buscador{
-    width: auto;
+    width: 100%;
+}
+
+.cont-copyheader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .copy-header {
@@ -195,6 +212,16 @@ main section article p{
 }
 
 .box-footer {
+   /* text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;*/
+}
+.contenedor-footer{
     text-align: center;
     width: 100%;
     margin: 0 auto;
@@ -203,8 +230,6 @@ main section article p{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-}
-.contenedor-footer {
     /*margin: 0px 15px;*/
     background-color: #ffffff;
     /*text-align: center;*/
@@ -239,11 +264,11 @@ main section article p{
 }
 
 
-@media (min-width: 361px) {
+@media (min-width: 481px) {
     .main-header-top-bar {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
+        /*flex-direction: column;*/
         justify-content: space-between;
     }
 
@@ -251,6 +276,19 @@ header section div.main-header-2 p{
     width: 100%;
     text-align: center;
     margin-top: 10px;
+}
+
+.cont-logo{
+    width: 30%;
+}
+.cont-copyheader{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont-serch{
+    width: 30%;
 }
 
 header section nav{
@@ -286,6 +324,7 @@ header ul li a{
 
 }
 
+
 @media (min-width: 769px) {
 .main-header-top-bar {
     
@@ -318,5 +357,39 @@ header ul li a{
 
 }
 
+.contenedor-footer{
+text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    /*margin: 0px 15px;*/
+    background-color: #ffffff;
+    /*text-align: center;*/
 }
 
+.sub-footer {
+    padding: 15px;
+    width: 33%;
+}
+
+.sub-footer p{
+    font-size: 12px;
+
+}
+
+.fin {
+    text-align: left;
+}
+
+.fin p{
+    text-align: left;
+    font-size: 10px;
+}
+
+}
