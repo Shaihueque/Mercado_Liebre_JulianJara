@@ -203,6 +203,15 @@ label{
      margin-bottom: 10px;
      color: #03264C;
  }
+ .fa-credit-card:hover{
+    color: #39b54a;
+}
+.fa-gift:hover{
+    color: #39b54a;
+}
+.fa-user-shield:hover{
+    color: #39b54a;
+}
  
  .fin {
      width: auto;

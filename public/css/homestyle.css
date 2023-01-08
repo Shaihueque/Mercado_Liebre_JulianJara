@@ -133,13 +133,12 @@ main section h3{
     margin: 10px 0;
 }
 
-main section article{
+/*main section article{
     background-color: white;
     margin: 10px 0px;
     text-align: left; 
     
-}
-
+}*/
 
 main section div img{
     width: 100%;
@@ -152,6 +151,9 @@ main section div img{
 }
 
 main section article{
+    background-color: white;
+    margin: 10px 0px;
+    text-align: left;
     /*width: 100%;*/
     border-top: 1px solid #ebebeb;
     padding: 15px;
@@ -163,6 +165,11 @@ main section article{
 
 main section .producto:hover article{
     display: block;
+    
+}
+main section .producto:hover{
+    display: block;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 main section article i, .producto-off{
@@ -256,6 +263,20 @@ main section article p{
     color: #03264C;
 }
 
+/*.icono-footer:hover{
+    color: #39b54a;
+}*/
+
+.fa-credit-card:hover{
+    color: #39b54a;
+}
+.fa-gift:hover{
+    color: #39b54a;
+}
+.fa-user-shield:hover{
+    color: #39b54a;
+}
+
 .fin {
     width: auto;
     background-color: #ffffff;
@@ -318,8 +339,15 @@ header ul li a{
 }
 
 .producto {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    /*box-shadow: 0px 0px 10px rgb(100, 100, 100);*/
     width: 45%;
+}
+main section .producto:hover article{
+    display: block;
+}
+main section .producto:hover{
+    display: block;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 }
@@ -335,10 +363,7 @@ header ul li a{
     max-width: 350px;
     text-align: center;
 }
-.producto {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 20%;
-}
+
 .menu-hamburgesa-boton {
     display: none;
 }
@@ -355,6 +380,14 @@ header ul li a{
 .main-navbar li {
     margin: 0 5px;
 
+}
+
+.producto {
+    /*box-shadow: 0px 0px 10px rgb(100, 100, 100);*/
+    width: 22%;
+}
+main section .producto:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 .contenedor-footer{
