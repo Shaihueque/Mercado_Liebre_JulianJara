@@ -56,6 +56,9 @@ header section div .logo {
 }
 .buscador{
     width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 .cont-copyheader{
